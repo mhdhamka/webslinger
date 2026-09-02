@@ -1,0 +1,30 @@
+name: Build Check & CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Build
+        # Pass a dummy key so the Vite build step doesn't fail if it checks for process.env/import.meta.env
+        run: npm run build
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY || 'dummy_test_key_for_ci' }}
