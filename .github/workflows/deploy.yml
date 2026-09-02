@@ -18,13 +18,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'
 
-      - name: Install Dependencies
-        run: npm install
+      - name: Clean Install Dependencies
+        # Use npm ci with a fallback to ensure optional native binaries for Tailwind Oxide install correctly on Linux
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+        env:
+          npm_config_platform: linux
+          npm_config_arch: x64
 
       - name: Run Build
-        # Pass a dummy key so the Vite build step doesn't fail if it checks for process.env/import.meta.env
         run: npm run build
         env:
           VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY || 'dummy_test_key_for_ci' }}
