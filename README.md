@@ -56,10 +56,12 @@ ___________________________________________________
 
 ## Tech Stack
 
-* **Frontend:** React + Vite (Blazing fast)
-* **Styling:** Tailwind CSS (Custom Comic Utilities & Brutalist Shadows)
-* **Icons:** Lucide React & Custom Web-Slinger Assets
-* **Brain:** Google Gemini 2.5 API
+| Category | Technology & Specification |
+| :--- | :--- |
+| **Frontend** | React + Vite (Blazing fast) |
+| **Styling** | Tailwind CSS (Custom Comic Utilities & Brutalist Shadows) |
+| **Icons** | Lucide React & Custom Web-Slinger Assets |
+| **Brain** | Google Gemini 2.5 API |
 
 ---
 
