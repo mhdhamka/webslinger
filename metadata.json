@@ -1,0 +1,6 @@
+{
+  "name": "The Web-Slinger Archives",
+  "description": "Spider-Man comic issue, story arc, and chronological reading order tracker tailored for massive eras like Brand New Day.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

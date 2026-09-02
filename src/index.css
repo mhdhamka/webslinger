@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .comic-dots {
+    background-image: radial-gradient(circle at 2px 2px, #1e293b 1px, transparent 0);
+    background-size: 24px 24px;
+  }
+  
+  .comic-dots-dense {
+    background-image: radial-gradient(circle at 1.5px 1.5px, rgba(255, 255, 255, 0.12) 1px, transparent 0);
+    background-size: 12px 12px;
+  }
+
+  .comic-hatch {
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35) 8px,
+      transparent 8px,
+      transparent 16px
+    );
+  }
+
+  .comic-hatch-fine {
+    background: repeating-linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05) 4px,
+      transparent 4px,
+      transparent 8px
+    );
+  }
+
+  .shadow-comic {
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+
+  .shadow-comic-lg {
+    box-shadow: 6px 6px 0px 0px #000000;
+  }
+
+  .shadow-comic-blue {
+    box-shadow: 6px 6px 0px 0px #1e3a8a;
+  }
+
+  .shadow-comic-yellow {
+    box-shadow: 4px 4px 0px 0px #eab308;
+  }
+
+  .shadow-comic-red {
+    box-shadow: 4px 4px 0px 0px #b91c1c;
+  }
+
+  .shadow-comic-inset {
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.6);
+  }
+}
+
+/* Custom scrollbar for comic look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0f1e;
+  border-left: 2px solid #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #b91c1c;
+  border: 1px solid #000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}
