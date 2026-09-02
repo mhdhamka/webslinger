@@ -17,7 +17,7 @@
 
 ---
 
-> ⚠️ **CLASSIFIED MAINFRAME TRANSMISSION** 
+> **CLASSIFIED MAINFRAME TRANSMISSION** 
 > *Initializing Peter Parker's personal continuity tracker...*
 > ```text
 > [====================----------------] 50% BND PROGRESS SYNCED
@@ -38,9 +38,7 @@ Tired of getting lost trying to read Marvel's massive eras like **Brand New Day*
 
 
 ```
-
----
-
+___________________________________________________
 | READING FLOW   | STORY ARCS   | AI CHRONOLOGIST |
 |--------------------------------------------------|
 | Track every single issue with localStorage sync  |
