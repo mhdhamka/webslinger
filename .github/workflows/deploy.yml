@@ -17,16 +17,12 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: '20' 
 
       - name: Clean Install Dependencies
-        # Use npm ci with a fallback to ensure optional native binaries for Tailwind Oxide install correctly on Linux
         run: |
           rm -rf node_modules package-lock.json
           npm install
-        env:
-          npm_config_platform: linux
-          npm_config_arch: x64
 
       - name: Run Build
         run: npm run build
