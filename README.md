@@ -72,7 +72,7 @@ Clone the repo and boot up your local server in seconds:
 ```bash
 # 1. Clone the repository
 git clone https://github.com/mhdhamka/webslingerarchives.git
-cd web-slinger-archives
+cd webslingerarchives
 
 # 2. Install dependencies
 npm install
