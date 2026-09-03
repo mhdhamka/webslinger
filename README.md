@@ -6,7 +6,7 @@
 # THE WEB-SLINGER ARCHIVES 🕸️
 *“With great reading order comes great responsibility.”*
 
-[Launch Live App](https://localhost:3000) · [Report Bug](https://github.com/mhdhamka/portIDE/issues) · [Request Feature](https://github.com/mhdhamka/portIDE/issues)
+[Launch Live App](https://localhost:3000) · [Report Bug](https://github.com/mhdhamka/webslingerarchives/issues) · [Request Feature](https://github.com/mhdhamka/webslingerarchives/issues)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Vite](https://img.shields.io/badge/Vite-React-646CFF?logo=vite&logoColor=white)
@@ -71,7 +71,7 @@ Clone the repo and boot up your local server in seconds:
 
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/mhdhamka/web-slinger-archives.git](https://github.com/mhdhamka/web-slinger-archives.git)
+git clone https://github.com/mhdhamka/webslingerarchives.git
 cd web-slinger-archives
 
 # 2. Install dependencies
