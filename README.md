@@ -17,15 +17,6 @@
 
 ---
 
-> **CLASSIFIED MAINFRAME TRANSMISSION** 
-> *Initializing Peter Parker's personal continuity tracker...*
-> ```text
-> [====================----------------] 50% BND PROGRESS SYNCED
-> [SPIDER-SENSE STATUS]: ACTIVE. AI CHRONOLOGIST ONLINE.
-> ```
-
----
-
 ## What is this?
 
 Tired of getting lost trying to read Marvel's massive eras like **Brand New Day**, **The Gauntlet**, and **Grim Hunt**? 
