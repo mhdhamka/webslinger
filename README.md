@@ -29,13 +29,7 @@ Tired of getting lost trying to read Marvel's massive eras like **Brand New Day*
 
 
 ```
-___________________________________________________
-| READING FLOW   | STORY ARCS   | AI CHRONOLOGIST |
-|--------------------------------------------------|
-| Track every single issue with localStorage sync  |
-| Toggle custom suit themes & retro comic frames   |
-| Query Gemini AI for instant continuity orders    |
-|__________________________________________________|
+![Web-Slinger Archives UI Preview](/images/webslingerarchives-preview.png)
 
 ```
 
