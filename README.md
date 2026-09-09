@@ -27,11 +27,7 @@ Tired of getting lost trying to read Marvel's massive eras like **Brand New Day*
 
 ## Interactive Preview & Features
 
-
-```
 ![Web-Slinger Archives UI Preview](/images/webslingerarchives-preview.png)
-
-```
 
 * **Comic Book Aesthetic Layout:** Heavy borders, drop shadows, and high-energy retro styling.
 * **Gemini AI Chronologist:** Ask things like *"Where should I read right after One More Day?"* and get instant lore breakdowns.
