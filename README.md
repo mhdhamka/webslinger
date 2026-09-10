@@ -6,7 +6,7 @@
 # THE WEB-SLINGER ARCHIVES 🕸️
 *“With great reading order comes great responsibility.”*
 
-[Launch Live App](https://webslingerarchives.vercel.app) · [Report Bug](https://github.com/mhdhamka/webslingerarchives/issues) · [Request Feature](https://github.com/mhdhamka/webslingerarchives/issues)
+[Launch Live App](https://webslingerarchives.vercel.app) · [Report Bug](https://github.com/mhdhamka/webslinger/issues) · [Request Feature](https://github.com/mhdhamka/webslinger/issues)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Vite](https://img.shields.io/badge/Vite-React-646CFF?logo=vite&logoColor=white)
@@ -52,8 +52,8 @@ Clone the repo and boot up your local server in seconds:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/mhdhamka/webslingerarchives.git
-cd webslingerarchives
+git clone https://github.com/mhdhamka/webslinger.git
+cd webslinger
 
 # 2. Install dependencies
 npm install
