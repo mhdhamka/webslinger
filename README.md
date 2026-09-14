@@ -39,9 +39,9 @@ Tired of getting lost trying to read Marvel's massive eras like **Brand New Day*
 
 | Category | Technology & Specification |
 | :--- | :--- |
-| **Frontend** | React + Vite (Blazing fast) |
-| **Styling** | Tailwind CSS (Custom Comic Utilities & Brutalist Shadows) |
-| **Icons** | Lucide React & Custom Web-Slinger Assets |
+| **Frontend** | React + Vite |
+| **Styling** | Tailwind CSS |
+| **Icons** | Lucide React |
 | **Brain** | Google Gemini 2.5 API |
 
 ---
