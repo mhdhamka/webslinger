@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { SUIT_THEMES } from '../data/spiderManData';
 import { SuitTheme } from '../types';
-import { Shield, Sparkles, Check, ChevronDown, Cpu } from 'lucide-react';
+import { Check, ChevronDown, Cpu } from 'lucide-react';
 
 interface SuitThemeSelectorProps {
   currentTheme: SuitTheme;
@@ -68,7 +68,7 @@ export const SuitThemeSelector: React.FC<SuitThemeSelectorProps> = ({
           {/* Header Bar */}
           <div className="bg-gradient-to-r from-blue-950 to-black px-4 py-2.5 border-b-2 border-yellow-400/40 flex items-center justify-between">
             <span className="text-[10px] font-mono font-black text-yellow-400 tracking-wider uppercase flex items-center gap-1.5">
-              <Sparkles className="w-3 h-3 text-yellow-400 animate-spin" /> SELECT PROTOCOL SUIT
+              SELECT PROTOCOL SUIT
             </span>
             <span className="text-[9px] font-mono px-1.5 py-0.5 bg-yellow-400 text-black font-bold">
               {SUIT_THEMES.STYLES || SUIT_THEMES.length} VAULTED

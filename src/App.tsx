@@ -9,7 +9,6 @@ import { SpiderTelemetryStats } from './components/SpiderTelemetryStats';
 import { AiChronologistView } from './components/AiChronologistView';
 import { IssueDetailModal } from './components/IssueDetailModal';
 import confetti from 'canvas-confetti';
-import { Filter, Sparkles, CheckCircle2 } from 'lucide-react';
 
 const STORAGE_PROGRESS_KEY = 'webslinger_archives_progress_v2';
 const STORAGE_THEME_KEY = 'webslinger_archives_suit_theme_id_v2';
@@ -493,11 +492,6 @@ export default function App() {
         <footer className="h-12 bg-black border-t-4 border-[#1e3a8a] flex items-center justify-between px-4 sm:px-8 text-[11px] font-mono text-gray-400 shadow-comic mt-auto">
           <div className="flex items-center gap-2">
             <span className="font-bold text-white tracking-wider">SYSTEM STATUS: [ CONNECTED TO WEB-NET ]</span>
-          </div>
-          <div className="hidden sm:flex items-center gap-6">
-            <span className="text-blue-300">STACK: <strong className="text-yellow-400">REACT + VITE</strong></span>
-            <span className="text-blue-300">STORAGE: <strong className="text-yellow-400">LOCALSTORAGE</strong></span>
-            <span className="text-gray-300">USER: <strong className="text-white">SPIDER-READER-001</strong></span>
           </div>
         </footer>
       </div>

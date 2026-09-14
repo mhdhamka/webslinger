@@ -1,6 +1,5 @@
 import React from 'react';
 import { StoryArc, ComicIssue, UserProgressMap } from '../types';
-import { Layers } from 'lucide-react';
 
 interface ArcNavigationStripProps {
   arcs: StoryArc[];
@@ -19,7 +18,6 @@ export const ArcNavigationStrip: React.FC<ArcNavigationStripProps> = ({
 }) => (
   <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-thin">
     <span className="text-xs font-mono text-yellow-400 font-bold uppercase tracking-wider shrink-0 flex items-center gap-1 bg-black px-2.5 py-1 border-2 border-black shadow-comic">
-      <Layers className="w-3.5 h-3.5" />
       ARCS:
     </span>
     {arcs.map((arc) => {

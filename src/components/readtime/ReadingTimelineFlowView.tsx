@@ -1,6 +1,6 @@
 import React from 'react';
 import { ComicIssue, StoryArc, UserProgressMap } from '../types';
-import { CheckCircle2, Package, Star, Sparkles } from 'lucide-react';
+import { CheckCircle2, Package, Star } from 'lucide-react';
 
 interface ReadingTimelineFlowViewProps {
   groupedByArc: { arc: StoryArc; issues: ComicIssue[] }[];

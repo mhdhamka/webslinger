@@ -1,11 +1,11 @@
 import React, { useState, useMemo } from 'react';
 import { ComicIssue, FilterState, StoryArc, SuitTheme, UserProgressMap } from '../types';
 import confetti from 'canvas-confetti';
-import { ReadingTimelineHeader } from './ReadingTimelineHeader';
-import { ArcNavigationStrip } from './ArcNavigationStrip';
-import { ReadingTimelineControls } from './ReadingTimelineControls';
-import { ReadingTimelineFlowView } from './ReadingTimelineFlowView';
-import { ReadingTimelineGridView } from './ReadingTimelineGridView';
+import { ReadingTimelineHeader } from './readtime/ReadingTimelineHeader';
+import { ArcNavigationStrip } from './readtime/ArcNavigationStrip';
+import { ReadingTimelineControls } from './readtime/ReadingTimelineControls';
+import { ReadingTimelineFlowView } from './readtime/ReadingTimelineFlowView';
+import { ReadingTimelineGridView } from './readtime/ReadingTimelineGridView';
 
 interface ReadingTimelineViewProps {
   issues: ComicIssue[];

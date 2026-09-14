@@ -6,11 +6,8 @@ import {
   Package,
   Star,
   Calendar,
-  Sparkles,
   AlertTriangle,
   UserCheck,
-  Palette,
-  ExternalLink,
   CheckCircle2,
   Tag,
 } from 'lucide-react';

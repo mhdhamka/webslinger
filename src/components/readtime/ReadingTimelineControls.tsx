@@ -69,7 +69,7 @@ export const ReadingTimelineControls: React.FC<ReadingTimelineControlsProps> = (
               title="Compact Grid View"
             >
               <LayoutGrid className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Marvel Grid</span>
+              <span className="hidden sm:inline">Grid</span>
             </button>
           </div>
         </div>
