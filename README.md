@@ -11,7 +11,6 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Vite](https://img.shields.io/badge/Vite-React-646CFF?logo=vite&logoColor=white)
 ![AI Chronologist](https://img.shields.io/badge/AI-Gemini_2.5-FFD700?logo=google&logoColor=black)
-![Spider-Sense](https://img.shields.io/badge/Spider--Sense-Tingling-red)
 
 </div>
 
