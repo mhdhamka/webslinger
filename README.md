@@ -70,6 +70,6 @@ Open **`http://localhost:3000`** in your browser and hit the jackpot, Tiger! ðŸ•
 
 ---
 
-Developed by [mhdhamka*](https://github.com/mhdhamka)
+Developed by [mhdhamka](https://github.com/mhdhamka)
 
 If this repo saved you from continuity hell, drop a star! 
