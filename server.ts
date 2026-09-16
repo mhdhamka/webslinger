@@ -14,7 +14,6 @@ const PORT = 3000;
 
 app.use(express.json());
 
-// Lazy-initialized Gemini client
 let aiClient: GoogleGenAI | null = null;
 function getGeminiClient(): GoogleGenAI | null {
   const apiKey = process.env.GEMINI_API_KEY;
